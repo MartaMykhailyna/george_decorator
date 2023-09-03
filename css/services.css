@@ -1,0 +1,81 @@
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+}
+
+.services-images-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.services h2 {
+    font-size: 30px;
+    font-family: var(--main-font);
+    margin: 0 auto 40px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #006a80;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.services__image-overlay-text-container{
+    position: absolute;
+    top: 0;
+    left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 3px;
+}
+.text-overlay-header {
+    margin: 10px auto 10px 5px;
+    max-width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    font-size: 22px;
+}
+.text-overlay-paragraph {
+    margin: 5px auto auto 5px;
+    max-width: 100%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.services__image-overlay-text-container span{
+    font-style: italic;
+}
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+.image-container:hover .text-overlay-header {
+    opacity: 1;
+}
+
+.image-container:hover .text-overlay-paragraph {
+    opacity: 1;
+}

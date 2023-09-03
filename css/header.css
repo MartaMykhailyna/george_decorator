@@ -1,0 +1,56 @@
+/* Header styles */
+header {
+    background-color: white;
+    color: #006a80;
+    padding: 20px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    color: #006a80;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.header__pages {
+    list-style: none;
+    display: flex;
+}
+
+.header__pages li {
+    margin-left: 20px;
+    position: relative;
+}
+.header__pages a:hover::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background-color: var(--main-accent-color); /* Колір підкреслення */
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    animation: underlineSlide 0.3s forwards ease-out;
+}
+@keyframes underlineSlide {
+    to {
+        width: 100%;
+        left: 0;
+    }
+}
+.header__pages a {
+    color: #006a80;
+    text-decoration: none;
+}
+
+
