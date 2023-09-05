@@ -109,7 +109,7 @@
 }
 
 .slider__body {
-    width: 300%;
+    width: 400%;
     height: 100%;
     display: flex;
     position: relative;
@@ -118,8 +118,8 @@
 
 .prev-button,
 .next-button {
-    width: 15px;
-    height: 25px;
+    width: 100%;
+    height: auto;
     margin:  auto;
 }
 
