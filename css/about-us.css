@@ -25,8 +25,10 @@
 .about__text {
     flex: 1;
     text-align: left;
-    line-height: 26px;
+}
+.about__text p {
     font-size: 20px;
+    line-height: 26px;
 }
 
 .about__text p:last-child {
