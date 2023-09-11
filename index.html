@@ -200,10 +200,10 @@
         <div class="contact-content">
             <h2>Contact Us</h2>
             <p>If you have any questions or inquiries, feel free to reach out to us. We'd love to hear from you!</p>
-            <form class="contact-form">
+            <form class="contact-form" onsubmit="sendEmail(); reset(); return false;">
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
+                <textarea type="message" placeholder="Your Message" required></textarea>
                 <button type="submit">Send</button>
             </form> 
         </div>
@@ -218,10 +218,23 @@
             <p>Phone: +1 (123) 456-7890</p>
         </div>
     </div>
-    <!--    <p>&copy; 2023 George Decoration Ltd. All rights reserved.</p>-->
 </footer>
-<!--<script rel="js/services.js"></script>-->
 <script src="js/testimonials-slider.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "martamykhailyna608@gmail.com",
+        Password : "608marta6008",
+        To : 'martamykhailyna608@gmail.com',
+        From : document.getElementById("email").value, 
+        Subject : "New contact From Enqury",
+        Body : document.getElementById("message").value
+    }).then(
+      message => alert(message)
+    );
+}
+</script>
 </body>
 </html>
