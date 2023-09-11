@@ -220,21 +220,5 @@
     </div>
 </footer>
 <script src="js/testimonials-slider.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    function sendEmail(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "martamykhailyna608@gmail.com",
-        Password : "608marta6008",
-        To : 'martamykhailyna608@gmail.com',
-        From : document.getElementById("email").value, 
-        Subject : "New contact From Enqury",
-        Body : document.getElementById("message").value
-    }).then(
-      message => alert(message)
-    );
-}
-</script>
 </body>
 </html>
