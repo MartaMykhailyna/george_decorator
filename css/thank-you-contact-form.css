@@ -7,14 +7,14 @@ body {
     background-color: #f9f9f9;
 }
 
-a {
+/* a {
     text-decoration: none;
-    color: #006a80; /* Колір посилань */
+    color: #006a80;
 }
 
 header {
-    background-color: #006a80;
-    color: #fff;
+    /* background-color: #006a80; 
+    /* color: #fff; 
     padding: 10px 0;
     text-align: center;
 }
@@ -39,7 +39,7 @@ nav {
 .header__pages li {
     display: inline;
     margin-right: 20px;
-}
+} */
 
 /* Thank You Page Styles */
 
