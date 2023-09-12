@@ -1,0 +1,79 @@
+/* Global Styles (styles.css) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #006a80; /* Колір посилань */
+}
+
+header {
+    background-color: #006a80;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__pages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__pages li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Thank You Page Styles */
+
+.thank-you {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.thank-you h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.thank-you p {
+    font-size: 18px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #006a80;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00495a; /* Змінити колір при наведенні */
+}
