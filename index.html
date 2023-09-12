@@ -200,12 +200,13 @@
         <div class="contact-content">
             <h2>Contact Us</h2>
             <p>If you have any questions or inquiries, feel free to reach out to us. We'd love to hear from you!</p>
-            <form class="contact-form" onsubmit="sendEmail(); reset(); return false;">
+            <form id="contact-form-formspree" class="contact-form" action="https://formspree.io/f/mdordnpd" method="POST">
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email" required>
                 <textarea type="message" placeholder="Your Message" required></textarea>
                 <button type="submit">Send</button>
             </form> 
+            <div id="contact-form-status"></div>
         </div>
     </section>
 </main>
@@ -220,5 +221,6 @@
     </div>
 </footer>
 <script src="js/testimonials-slider.js"></script>
+<script src="js/contact-form.js"></script>
 </body>
 </html>
