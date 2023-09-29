@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 <header>
@@ -31,8 +32,8 @@
         <p>Your premier choice for stunning interior designs.</p>
     </section>
 
-    <section class="services" id="services__section">
-        <h2 style="font-size: 36px">Our Services</h2>
+    <section class="services-container" id="services__section">
+        <h2>Our Services</h2>
         <div class="services">
             <div class="service">
                 <img src="img/istockphoto-149850343-612x612.jpg" alt="Interior Design">
@@ -69,23 +70,36 @@
                 </div>
                 <img src="img/istockphoto-1221306297-612x612.jpg" alt="New Building Houses">
             </div>
-                <div class="service">
+                <div class="service service__school-section">
                     <img src="img/istockphoto-149850343-612x612.jpg" alt="Interior Design">
                     <div class="service-content">
                         <h2>Schools</h2>
                         <p>We design educational spaces that foster creativity, learning, and growth. Our school
                             projects prioritize safety, functionality, and an inspiring environment that encourages
                             students to excel academically.</p>
+                            <a href="#school-page.html" class="services__link">
+                                <div>
+                                    <span>Learn more</span>
+                                    <i class="fa-solid fa-arrow-right" style="color: var(--main-accent-color);"></i>
+                                </div>
+                            </a>
                     </div>
                 </div>
-                <div class="service">
+                <div class="service service__hospital-section">
                     <div class="service-content">
                         <h2>Hospitals</h2>
                         <p>Our hospital designs prioritize patient well-being and efficient healthcare
                             delivery. We create spaces that promote healing, comfort, and state-of-the-art medical
                             facilities to ensure the best care for patients.</p>
+                            <a href="#hospital-page.html" class="services__link">
+                                <div>
+                                    <span>Learn more</span>
+                                    <i class="fa-solid fa-arrow-right" style="color: var(--main-accent-color);"></i>
+                                </div>
+                            </a>
                     </div>
                     <img src="img/istockphoto-921025912-612x612.jpg" alt="Exterior Design">
+                   
                 </div>
                 <div class="service">
                     <img src="img/istockphoto-149850343-612x612.jpg" alt="Home Renovation">
@@ -99,6 +113,10 @@
                 </div>
             </div>
     </section>
+
+    <!-- <section class="hospitals-container">
+        <h2>Hospitals</h2>
+    </section> -->
 
     <section class="about" id="about__section">
         <div class="about__content">

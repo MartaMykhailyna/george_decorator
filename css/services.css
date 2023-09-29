@@ -1,4 +1,4 @@
-.services {
+.services-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,13 +26,55 @@
 }
 
 .service h2 {
-    font-size: 28px;
     margin: 40px auto;
 }
-
-.service p {
-    font-size: 20px;
-    margin: 10px 20px;
-    line-height: 26px;
+.service-content{
+    padding: 10px 20px;
     text-align: left;
+}
+/* .services__link div{
+    text-align: left;
+    margin-top: 20px;
+    width: 200px;
+    border: 7px dotted darkgoldenrod;
+}
+.services__link div span:hover::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background-color: var(--main-accent-color);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    animation: underlineSlide 0.3s forwards ease-out;
+}
+@keyframes underlineSlide {
+    to {
+        width: 100%;
+        left: 0;
+    }
+} */
+.service a:hover::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: var(--main-accent-color);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    animation: underlineSlide 0.3s forwards ease-out;
+}
+@keyframes underlineSlide {
+    to {
+        width: 100%;
+        left: 0;
+    }
+}
+.service a {
+    color: #006a80;
+    text-decoration: none;
 }
