@@ -8,7 +8,7 @@
 .service {
     background-color: #fff;
     margin: 20px;
-    padding: 20px;
+    padding: 0 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
@@ -26,55 +26,21 @@
 }
 
 .service h2 {
-    margin: 40px auto;
+    margin: 10px auto 20px;
 }
 .service-content{
     padding: 10px 20px;
     text-align: left;
 }
-/* .services__link div{
-    text-align: left;
-    margin-top: 20px;
-    width: 200px;
-    border: 7px dotted darkgoldenrod;
+.service-content p{
+    margin-bottom: 20px;
 }
-.services__link div span:hover::after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 3px;
-    border-radius: 10px;
-    background-color: var(--main-accent-color);
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    animation: underlineSlide 0.3s forwards ease-out;
-}
-@keyframes underlineSlide {
-    to {
-        width: 100%;
-        left: 0;
-    }
-} */
-.service a:hover::after {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 10px;
-    border-radius: 10px;
-    background-color: var(--main-accent-color);
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    animation: underlineSlide 0.3s forwards ease-out;
-}
-@keyframes underlineSlide {
-    to {
-        width: 100%;
-        left: 0;
-    }
-}
-.service a {
-    color: #006a80;
+.services__link{
     text-decoration: none;
+}
+.services__link:hover {
+    text-decoration: underline;
+}
+.services__link span{
+    margin-right: 5px;
 }

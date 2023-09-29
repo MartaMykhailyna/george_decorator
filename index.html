@@ -22,7 +22,7 @@
             <li><a href="#">Home</a></li>
             <li><a href="#services__section">Services</a></li>
             <li><a href="#about__section">About Us</a></li>
-            <li><a href="#contact-section">Contact</a></li>
+            <li><a href="#contact__section">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -77,7 +77,7 @@
                         <p>We design educational spaces that foster creativity, learning, and growth. Our school
                             projects prioritize safety, functionality, and an inspiring environment that encourages
                             students to excel academically.</p>
-                            <a href="#school-page.html" class="services__link">
+                            <a href="schools-page.html" class="services__link">
                                 <div>
                                     <span>Learn more</span>
                                     <i class="fa-solid fa-arrow-right" style="color: var(--main-accent-color);"></i>
@@ -91,7 +91,7 @@
                         <p>Our hospital designs prioritize patient well-being and efficient healthcare
                             delivery. We create spaces that promote healing, comfort, and state-of-the-art medical
                             facilities to ensure the best care for patients.</p>
-                            <a href="#hospital-page.html" class="services__link">
+                            <a href="hospitals-page.html" class="services__link">
                                 <div>
                                     <span>Learn more</span>
                                     <i class="fa-solid fa-arrow-right" style="color: var(--main-accent-color);"></i>
@@ -99,7 +99,6 @@
                             </a>
                     </div>
                     <img src="img/istockphoto-921025912-612x612.jpg" alt="Exterior Design">
-                   
                 </div>
                 <div class="service">
                     <img src="img/istockphoto-149850343-612x612.jpg" alt="Home Renovation">
@@ -114,11 +113,7 @@
             </div>
     </section>
 
-    <!-- <section class="hospitals-container">
-        <h2>Hospitals</h2>
-    </section> -->
-
-    <section class="about" id="about__section">
+    <section class="about__section" id="about__section">
         <div class="about__content">
             <h2>About Us</h2>
             <div class="about__description">
@@ -214,16 +209,15 @@
             </div>
         </div>
     </section>
-    <section class="contact" id="contact-section">
+    <section class="contact__section" id="contact-section">
         <div class="contact-content">
             <h2>Contact Us</h2>
             <p>If you have any questions or inquiries, feel free to reach out to us. We'd love to hear from you!</p>
-            <form id="contact-form-formspree" class="contact-form" action="https://formsubmit.co/martamykhailyna608@gmail.com" method="POST">
-                <input name="name" type="text" placeholder="Your Name" required>
-                <input name="email" type="email" placeholder="Your Email" required>
-                <!-- <input type="hidden" name="_next" value="https://lovely-dusk-cd996d.netlify.app/"> -->
-                <textarea type="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send</button>
+            <form id="contact-form-formspree" class="contact-form" method="POST">
+                <input name="Name" type="text" id="name" placeholder="Your Name" required>
+                <input name="Email" id="email" type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Email">
             </form> 
             <div id="contact-form-status"></div>
         </div>
@@ -240,6 +234,5 @@
     </div>
 </footer>
 <script src="js/testimonials-slider.js"></script>
-<!-- <script src="js/contact-form.js"></script> -->
 </body>
 </html>
