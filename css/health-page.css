@@ -1,0 +1,50 @@
+/* Додайте ці стилі до вашого CSS файлу */
+
+.main-section__photos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-section__photo {
+    width: 200px; /* Змініть ширину фотографій за вашими потребами */
+    height: 200px; /* Змініть висоту фотографій за вашими потребами */
+    background-color: #000; /* Колір фону для чорних квадратів */
+    margin: 10px; /* Відстань між фотографіями */
+}
+
+/* Стилі для інших розділів тексту (назви, абзаци, список) */
+
+.main-section__content h2,
+.main-section__why-choose h3,
+.main-section__services h3,
+.main-section__contact h3 {
+    color: #006a80; /* Колір заголовків */
+}
+
+.main-section__paragraph,
+.main-section__bullet-points li {
+    color: #333; /* Колір звичайного тексту */
+    font-size: 16px; /* Розмір тексту */
+    margin-bottom: 10px; /* Відстань між абзацами та списками */
+}
+
+/* Стилі для кнопки "Contact Us" */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #006a80;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00495a; /* Змініть колір при наведенні */
+}

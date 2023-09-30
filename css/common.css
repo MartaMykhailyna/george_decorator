@@ -7,6 +7,11 @@ img {
     display: block;
     width: 100%;
 }
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 :root{
     --main-font: "Roboto", Arial, sans-serif;
     --main-accent-color: #006a80;
@@ -32,4 +37,10 @@ a{
     font-family: var(--main-font);
     color: var(--main-accent-color);
     font-size: 20px;
+}
+/* li{
+    list-style: none;
+} */
+.bold-font{
+    font-weight: bold;
 }

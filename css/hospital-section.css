@@ -1,13 +1,55 @@
-.hospitals-container {
-    width: 100%;
-    border: 8px double firebrick;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    padding: 40px;
-    background-color: var(--second-background-color);
+
+.hospitals-page__main-section{
+    margin: 50px auto;
+        /* border: 5px solid lime; */
+    padding: 10px 40px;
+    display: flex;
 }
-.hospitals-container h2 {
-    margin: 10px auto;
-    width: 10%;
+.hospitals-page__main-section h3{
+    font-size: 25px;
+}
+.hospitals-page__main-section-text-container{
+        /* border: 5px solid khaki; */
+        width: 60%;
+}
+.hospitals-page-main-section__content {
+    /* border:5px solid tomato; */
+}
+.hospitals-page-main-section__paragraph {
+        /* border: 5px solid darkslategrey; */
+        margin: 10px 0;
+}
+.hospitals-page-main-section__why-choose {
+        /* border: 5px solid darkolivegreen; */
+         margin: 20px 0;
+}
+.hospitals-page-main-section__bullet-points {
+        /* border: 5px solid darkgoldenrod; */
+        margin-top: 10px;
+}
+.hospitals-page-main-section__bullet-points li{
+    margin-left: 20px;
+}
+.hospitals-page-main-section__bullet-points li:not(:last-child){
+    margin-bottom: 10px;
+}
+.hospitals-page-main-section__services {
+        /* border: 5px solid darkcyan; */
+        margin: 20px 0;
+}
+.hospitals-page-main-section__photos {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 45%;
+}
+.hospitals-page-main-section__photo-container-1 {
+    margin: 20px auto;
+    width: 90%;
+}
+.hospitals-page-main-section__photo-container-2 {
+    width: 90%;
+    margin: 0 auto;
 }
