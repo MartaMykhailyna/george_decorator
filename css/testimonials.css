@@ -1,18 +1,22 @@
-.testimonials__images {
+.testimonials-container{
+    background-color: white;
+    padding: 10px 0;
+}
+/* .testimonials__images {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-}
+} */
 
-.image__item {
+/* .image__item {
     margin: auto;
     margin-top: 20px;
-}
+} */
 
 .testimonials__text {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .testimonials__title {

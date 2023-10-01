@@ -1,0 +1,46 @@
+
+.school-page__main-section{
+    margin: 50px auto;
+    padding: 10px 40px;
+    display: flex;
+    background-color: white;
+}
+.school-page__main-section h3{
+    font-size: 25px;
+}
+.school-page__main-section-text-container{
+        width: 60%;
+}
+.school-page-main-section__paragraph {
+        margin: 10px 0;
+}
+.school-page-main-section__why-choose {
+         margin: 20px 0;
+}
+.school-page-main-section__bullet-points {
+        margin-top: 10px;
+}
+.school-page-main-section__bullet-points li{
+    margin-left: 20px;
+}
+.school-page-main-section__bullet-points li:not(:last-child){
+    margin-bottom: 10px;
+}
+.school-page-main-section__services {
+        margin: 20px 0;
+}
+.school-page-main-section__photos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 45%;
+}
+.school-page-main-section__photo-container-1 {
+    margin: 20px auto;
+    width: 90%;
+}
+.school-page-main-section__photo-container-2 {
+    width: 90%;
+    margin: 0 auto;
+}

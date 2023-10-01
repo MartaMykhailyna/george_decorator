@@ -1,6 +1,3 @@
-/* Залишаємо попередні стилі */
-
-/* Footer styles */
 footer {
     background-color: #333;
     color: white;
@@ -8,7 +5,7 @@ footer {
 }
 
 .footer-content {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -16,11 +13,11 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer-logo a {
+/* .footer-logo a {
     font-size: 24px;
     color: white;
     text-decoration: none;
-}
+} */
 .footer-logo a:hover{
     color: #adadad;
     transition: color .5s ease-out;

@@ -19,9 +19,9 @@
     border-radius: 15px;
 }
 
-.service img {
-    width: 450px;
-    max-height: 300px;
+.services-photo-container {
+    width: 80%;
+    height: auto;
     margin-right: 20px;
 }
 
@@ -38,9 +38,6 @@
 .services__link{
     text-decoration: none;
 }
-.services__link:hover {
+.services__link span:hover{
     text-decoration: underline;
-}
-.services__link span{
-    margin-right: 5px;
 }

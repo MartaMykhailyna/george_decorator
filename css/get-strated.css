@@ -12,7 +12,5 @@
 }
 
 .get-started p {
-    font-size: 18px;
     margin-bottom: 40px;
-    color: var( --main-accent-color);
 }
