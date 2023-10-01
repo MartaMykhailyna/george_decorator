@@ -10,7 +10,7 @@ img {
 }.landing{
     width: 100%;
     color: var(--main-accent-color);
-        margin: 0;
+    margin: 0;
     padding: 0;
     font-family: var(--main-font);
 }
@@ -23,6 +23,9 @@ img {
 /* Reset some default styles */
 h2{
     font-size: 36px;
+}
+h3{
+    font-size: 34px;
 }
 p{
     font-size: 20px;
@@ -43,16 +46,25 @@ a{
 }
 @media (max-width: 1000px){
     h2{
-    font-size: 36px;
+        font-size: 30px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    a{
+        text-decoration: none;
+        font-family: var(--main-font);
+        color: var(--main-accent-color);
+        font-size: 15px;
+    }
 }
-p{
-    font-size: 20px;
-    line-height: 26px;
-}
-a{
-    text-decoration: none;
-    font-family: var(--main-font);
-    color: var(--main-accent-color);
-    font-size: 20px;
-}
+@media (max-width: 900px){
+     p{
+        font-size: 16px;
+        line-height: 23px;
+    }
 }
