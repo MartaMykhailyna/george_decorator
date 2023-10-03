@@ -131,6 +131,9 @@
     .testimonials__sub-title {
         max-width: 323px;
     }
+    .testimonials__slider-container{
+        padding: 0 10px;
+    }
 }
 
 @media(min-width:450px) {
