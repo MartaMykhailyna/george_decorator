@@ -8,6 +8,10 @@
     <!--    <link rel="shortcut icon" type="image/png" href="./img/favicon-logo.png" sizes="96x96" />-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +30,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav header__pages header-text-style">
-                <a class="nav-item nav-link active pr-0 pl-0" href="#"><span class="nav-link-text">Home</span> <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active pr-0 pl-0" href="#">
+                    <span class="nav-link-text">Home</span> <span class="sr-only">(current)</span>
+                </a>
                 <a class="nav-item nav-link pr-0 pl-0" href="#services__section"><span class="nav-link-text">Services</span></a>
                 <a class="nav-item nav-link pr-0 pl-0" href="#about__section"><span class="nav-link-text">About Us</span></a>
                 <a class="nav-item nav-link pr-0 pl-0" href="#contact__section"><span class="nav-link-text">Contact</span></a>
@@ -36,46 +42,6 @@
                 <a class="nav-link p-0" href="mailto:gica492006@yahoo.co.uk">gica492006@yahoo.co.uk</a>
             </div>
         </div>
-    </nav>
-<!-- <nav class="navbar navbar-expand-lg">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class=" navbar-brand logo" href="#"><img src="img/logo-george-decorator-new-with-border.svg" alt=""></a>
-        <ul class=" navbar-nav header__pages header-text-style">
-            <li class="nav-item">
-                <a class="header-link" href="#">Home </a>
-            </li>
-            <li class="nav-item">
-                <a class="header-link" href="#services__section">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="header-link" href="#about__section">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="header-link" href="#contact__section">Contact</a>
-            </li>
-        </ul>
-        <div class="header__contacts header-text-style">
-            <a class="header-link" href="tel: +447702968900" style="margin-bottom:10px">+447702968900</a>
-            <a class="header-link" href="mailto:gica492006@yahoo.co.uk">gica492006@yahoo.co.uk</a>
-        </div>
-    </div> -->
-        <!-- <div class="logo">
-            <a href="#"><img src="img/logo-george-decorator-new-with-border.svg" alt=""></a>
-        </div> -->
-        <!-- <ul class="header__pages header-text-style">
-            <li><a href="#">Home</a></li>
-            <li><a href="#services__section">Services</a></li>
-            <li><a href="#about__section">About Us</a></li>
-            <li><a href="#contact__section">Contact</a></li>
-        </ul>
-        <div class="header__contacts header-text-style">
-            <a href="tel: +447702968900" style="margin-bottom:10px">+447702968900</a>
-            <a href="mailto:gica492006@yahoo.co.uk">gica492006@yahoo.co.uk</a>
-        </div> -->
     </nav>
 </header>
 <main>
@@ -182,74 +148,62 @@
             </div>
         </div>
     </section>
-
     <section class="testimonials-container">
-        <div class="testimonials">
-            <div class="container">
                 <div class="testimonials__text">
                     <p class="testimonials__text-testimonials subtitle">Clients Say About Us </p>
                     <p class="testimonials__sub-title">
                         We appreciate your warm words and thoughts.
                     </p>
-                </div>
-                <div class="testimonials__slider-container">
-                    <img class="prev-button" src="img/icons8-back-50.png" alt="Prev button">
-                    <div class="testimonials__slider slider">
-                        <div class="slider__body">
-                            <div class="slider__item">
-                                <img src="img/portrait_woman_1.jpg" alt="Lucile Peterson" class="slider__image"/>
-                                <h3 class="slider__name">Lucile Peterson</h3>
-                                <p class="slider__text">
-                                    “I am truly impressed with the exceptional services provided by George Decorations
-                                    Ltd. Their attention to detail and professional approach in transforming spaces is
-                                    remarkable. The team's creativity and dedication in enhancing the aesthetic appeal
-                                    of my surroundings exceeded my expectations. I highly recommend George Decorations
-                                    Ltd for their top-notch decorating expertise.”
-                                </p>
-                                <p class="slider__date">DECEMBER 15, 2021</p>
-                            </div>
-                            <div class="slider__item">
-                                <img src="img/portrait-woman-3.jpg" alt="Gillian Adler" class="slider__image"/>
-                                <h3 class="slider__name">Gillian Adler</h3>
-                                <p class="slider__text">
-                                    “I had the pleasure of working with George Decorations Ltd, and I must say, they
-                                    made my dream interior come to life. Their impeccable taste and attention to detail
-                                    transformed my space into a true work of art. I'm incredibly happy with the results
-                                    and would highly recommend them to anyone looking to elevate their home or office
-                                    decor.”
-                                </p>
-                                <p class="slider__date">MARCH 02, 2022</p>
-                            </div>
-                            <div class="slider__item">
-                                <img src="img/" alt="Ashley Parson" class="slider__image"/>
-                                <h3 class="slider__name">Ashley Parson</h3>
-                                <p class="slider__text">
-                                    “I recently hired George Decorations Ltd for a home renovation project, and I
-                                    couldn't be more satisfied with their work. Their skilled team not only met but
-                                    exceeded my expectations. The quality of their craftsmanship is exceptional, and
-                                    their ability to bring innovative design ideas to life is truly impressive. George
-                                    Decorations Ltd is the go-to choice for anyone seeking top-notch decor services.”
-                                </p>
-                                <p class="slider__date">NOVEMBER 12, 2022</p>
-                            </div>
-                            <div class="slider__item">
-                                <img src="img/ashley.png" alt="Ashley Parson" class="slider__image"/>
-                                <h3 class="slider__name">Ashley Parson</h3>
-                                <p class="slider__text">
-                                    “As a business owner, I needed a fresh look for my office space, and George
-                                    Decorations Ltd delivered beyond my imagination. Their expertise in creating a
-                                    professional yet inviting atmosphere was evident from day one. The team's
-                                    professionalism and commitment to meeting deadlines were outstanding. I highly
-                                    recommend George Decorations Ltd for all your commercial decorating needs.”
-                                </p>
-                                <p class="slider__date">May 06, 2023</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <img class="next-button" src="img/icons8-forward-50.png" alt="Next button">
-                </div>
-            </div>
+                    <swiper-container class="mySwiper" navigation="true">
+                        <swiper-slide><div class="slider__item">
+                            <img src="img/portrait_woman_1.jpg" alt="Lucile Peterson" class="slider__image"/>
+                            <h3 class="slider__name">Lucile Peterson</h3>
+                            <p class="slider__text">
+                                “I am truly impressed with the exceptional services provided by George Decorations
+                                Ltd. Their attention to detail and professional approach in transforming spaces is
+                                remarkable. The team's creativity and dedication in enhancing the aesthetic appeal
+                                of my surroundings exceeded my expectations. I highly recommend George Decorations
+                                Ltd for their top-notch decorating expertise.”
+                            </p>
+                            <p class="slider__date">DECEMBER 15, 2021</p>
+                        </div></swiper-slide>
+                        <swiper-slide> <div class="slider__item">
+                            <img src="img/portrait-woman-3.jpg" alt="Gillian Adler" class="slider__image"/>
+                            <h3 class="slider__name">Gillian Adler</h3>
+                            <p class="slider__text">
+                                “I had the pleasure of working with George Decorations Ltd, and I must say, they
+                                made my dream interior come to life. Their impeccable taste and attention to detail
+                                transformed my space into a true work of art. I'm incredibly happy with the results
+                                and would highly recommend them to anyone looking to elevate their home or office
+                                decor.”
+                            </p>
+                            <p class="slider__date">MARCH 02, 2022</p>
+                        </div></swiper-slide>
+                        <swiper-slide> <div class="slider__item">
+                            <img src="img/ashley.png" alt="Ashley Parson" class="slider__image"/>
+                            <h3 class="slider__name">Ashley Parson</h3>
+                            <p class="slider__text">
+                                “As a business owner, I needed a fresh look for my office space, and George
+                                Decorations Ltd delivered beyond my imagination. Their expertise in creating a
+                                professional yet inviting atmosphere was evident from day one. The team's
+                                professionalism and commitment to meeting deadlines were outstanding. I highly
+                                recommend George Decorations Ltd for all your commercial decorating needs.”
+                            </p>
+                            <p class="slider__date">May 06, 2023</p>
+                        </div></swiper-slide>
+                        <swiper-slide><div class="slider__item">
+                            <img src="img/" alt="Ashley Parson" class="slider__image"/>
+                            <h3 class="slider__name">Ashley Parson</h3>
+                            <p class="slider__text">
+                                “I recently hired George Decorations Ltd for a home renovation project, and I
+                                couldn't be more satisfied with their work. Their skilled team not only met but
+                                exceeded my expectations. The quality of their craftsmanship is exceptional, and
+                                their ability to bring innovative design ideas to life is truly impressive. George
+                                Decorations Ltd is the go-to choice for anyone seeking top-notch decor services.”
+                            </p>
+                            <p class="slider__date">NOVEMBER 12, 2022</p>
+                        </div></swiper-slide>
+                      </swiper-container>
         </div>
     </section>
     <section class="contact__section" id="contact-section">
@@ -276,6 +230,8 @@
         </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

@@ -1,16 +1,21 @@
-let changePosition = 0;
-const sliderBody = document.querySelector('.slider__body');
-document.querySelector('.next-button').addEventListener('click', function () {
-    changePosition -= 100;
-    if (changePosition < -300) {
-        changePosition = -300;
-    }
-    sliderBody.style.left = changePosition + '%';
-})
-document.querySelector('.prev-button').addEventListener('click', function () {
-    changePosition += 100;
-    if (changePosition > 0) {
-        changePosition = 0;
-    }
-    sliderBody.style.left = changePosition + '%';
-})
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
