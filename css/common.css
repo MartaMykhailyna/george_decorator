@@ -19,6 +19,19 @@ img {
     --main-accent-color: #006a80;
     --main-background-color: #fff;
     --second-background-color: #f0f0f0;
+
+
+
+    --swiper-navigation-color: var(--main-accent-color);
+    --swiper-navigation-bullet-size: 5px;
+    --swiper-navigation-bullet-width: 5px;
+    --swiper-navigation-bullet-height: 5px;
+    --swiper-navigation-bullet-inactive-color: rgba(0, 106, 128, 0.72);
+    --swiper-navigation-bullet-inactive-opacity: 1;
+    --swiper-navigation-bullet-opacity: 1;
+    --swiper-navigation-bullet-horizontal-gap: 4px;
+    --swiper-navigation-bullet-vertical-gap: 6px;
+    --swiper-navigation-bottom: 10%;
 }
 /* Reset some default styles */
 h2{

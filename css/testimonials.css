@@ -1,38 +1,10 @@
 .testimonials-container{
     background-color: white;
     padding: 10px 0;
-    border: 5px solid darkcyan;
 }
-/* .testimonials__images {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
-} */
-
-/* .image__item {
-    margin: auto;
-    margin-top: 20px;
-} */
-
 .testimonials__text {
     margin-top: 20px;
-    border: 5px solid darkcyan;
-
 }
-
-.testimonials__title {
-    text-align: center;
-    font-size: 11px;
-    line-height: 17px;
-    letter-spacing: 2.2px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--general-title-color);
-    border: 5px solid firebrick;
-}
-
 .testimonials__text-testimonials {
     text-align: center;
     font-size: 30px;
@@ -41,10 +13,7 @@
     line-height: 39px;
     color: var(--subtitle-color);
     margin: 20px 0;
-    border: 5px solid darkgoldenrod;
-
 }
-
 .testimonials__sub-title {
     text-align: center;
     font-size: 18px;
@@ -54,7 +23,6 @@
     max-width: 255px;
     margin: auto;
     margin-bottom: 40px;
-    border: 5px solid saddlebrown;
 }
 
 .slider__item img {
@@ -75,7 +43,6 @@
     line-height: 28.6px;
     color: var(--third-title-color);
     margin: 20px 0;
-    border: 5px solid lightsalmon;
 }
 
 .slider__text {
@@ -84,13 +51,11 @@
     font-weight: 400;
     line-height: 24px;
     color: black;
-    max-width: 620px;
+    max-width: 720px;
     display: block;
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: 5px solid darkgreen;
-
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .slider__date {
@@ -102,43 +67,9 @@
     color: #006a80;
     margin: 20px 0 100px 0;
 }
-
-.testimonials__slider {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    overflow: hidden;
-    border: 5px dotted lawngreen; 
-
-}
-
-.testimonials__slider-container {
-    margin: auto;
-    display: grid;
-    grid-template-columns: 30px 1fr 30px;
-    padding: 0 50px;
-    border: 5px dotted  red; 
-}
-
 .slider__item {
     height: 100%;
     width: 100%;
-    border: 5px dotted blue; 
-}
-
-.slider__body {
-    width: 400%;
-    height: 100%;
-    display: flex;
-    position: relative;
-    transition: all ease 700ms;
-}
-
-.prev-button,
-.next-button {
-    width: 100%;
-    height: auto;
-    margin:  auto;
 }
 
 @media(min-width:370px) {

@@ -14,3 +14,8 @@
 .get-started p {
     margin-bottom: 40px;
 }
+@media (max-width: 600px){
+   .get-started{
+       padding: 100px 20px;
+   }
+}

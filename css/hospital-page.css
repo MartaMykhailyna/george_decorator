@@ -1,8 +1,10 @@
+
 .hospitals-page__main-section{
     margin: 50px auto;
     padding: 10px 40px;
     display: flex;
     background-color: white;
+    color: var(--main-accent-color);
 }
 .hospitals-page__main-section h3{
     font-size: 25px;
@@ -42,4 +44,45 @@
 .hospitals-page-main-section__photo-container-2 {
     width: 90%;
     margin: 0 auto;
+}
+/* Загальні стилі для мобільного пристрою */
+/* Загальні стилі для мобільного пристрою */
+@media screen and (max-width: 768px) {
+    /* Загальні стилі для <main> */
+    main {
+        padding: 20px;
+    }
+
+    /* Стилі для .hospitals-page__main-section */
+    .hospitals-page__main-section {
+        margin-bottom: 20px;
+    }
+
+    /* Стилі для заголовків */
+    h2, h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* Стилі для тексту */
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    /* Стилі для списків */
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    /* Стилі для зображень */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block; /* Вирівнювання зображень по центру контейнера */
+        margin: 0 auto 20px; /* Змініть значення відступу нижче зображень */
+    }
+    
 }

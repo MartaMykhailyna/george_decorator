@@ -4,6 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>George Decorator Ltd.</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,19 +17,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="#"><img src="img/logo-george-decorator-new-with-border.svg" alt=""></a>
+<header>
+    <nav class=" navbar-expand-lg navbar p-0">
+        <a class="navbar-brand logo" href="#">
+            <img src="img/logo-george-decorator-new-with-border.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse m-auto" id="navbarNavAltMarkup">
+            <div class="navbar-nav header__pages header-text-style">
+                <a class="nav-item nav-link active pr-0 pl-0" href="#">
+                    <span class="nav-link-text">Home</span> <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link pr-0 pl-0" href="#services__section">
+                    <span class="nav-link-text">Services</span>
+                </a>
+                <a class="nav-item nav-link pr-0 pl-0" href="#about__section">
+                    <span class="nav-link-text">About Us</span>
+                </a>
+                <a class="nav-item nav-link pr-0 pl-0" href="#contact__section">
+                    <span class="nav-link-text">Contact</span>
+                </a>
             </div>
-            <ul class="header__pages">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#services__section">Services</a></li>
-                <li><a href="index.html#about__section">About Us</a></li>
-                <li><a href="index.html#contact__section">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+            <div class="header__contacts header-text-style">
+                <a class="nav-link p-0" href="tel: +447702968900" style="margin-bottom:10px">+447702968900</a>
+                <a class="nav-link p-0" href="mailto:gica492006@yahoo.co.uk">gica492006@yahoo.co.uk</a>
+            </div>
+        </div>
+    </nav>
+</header>
     <main>
         <section class="school-page__main-section">
             <div class="school-page__main-section-text-container">
