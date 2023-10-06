@@ -10,7 +10,9 @@
     font-size: 25px;
 }
 .hospitals-page__main-section-text-container{
-        width: 60%;
+    margin: 0 auto;
+    /*width: 60%;*/
+    text-align: justify-all;
 }
 .hospitals-page-main-section__paragraph {
         margin: 10px 0;
@@ -33,56 +35,26 @@
 .hospitals-page-main-section__photos {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
-    width: 45%;
+    /*width: 45%;*/
 }
 .hospitals-page-main-section__photo-container-1 {
     margin: 20px auto;
     width: 90%;
+    max-width: 500px;
 }
 .hospitals-page-main-section__photo-container-2 {
     width: 90%;
+    max-width: 500px;
     margin: 0 auto;
 }
-/* Загальні стилі для мобільного пристрою */
-/* Загальні стилі для мобільного пристрою */
 @media screen and (max-width: 768px) {
-    /* Загальні стилі для <main> */
     main {
         padding: 20px;
     }
-
-    /* Стилі для .hospitals-page__main-section */
     .hospitals-page__main-section {
         margin-bottom: 20px;
     }
-
-    /* Стилі для заголовків */
-    h2, h3 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-
-    /* Стилі для тексту */
-    p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 10px;
-    }
-
-    /* Стилі для списків */
-    ul {
-        list-style-type: disc;
-        padding-left: 20px;
-    }
-
-    /* Стилі для зображень */
-    img {
-        max-width: 100%;
-        height: auto;
-        display: block; /* Вирівнювання зображень по центру контейнера */
-        margin: 0 auto 20px; /* Змініть значення відступу нижче зображень */
-    }
-    
 }
