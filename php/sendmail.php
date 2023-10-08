@@ -5,14 +5,10 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $body = $_POST['body-textarea'];
-}
-require_once "../phpmailer/PHPMailer-6.8.1/src/PHPMailer.php";
-require_once "../phpmailer/PHPMailer-6.8.1/src/SMTP.php";
-require_once "../phpmailer/PHPMailer-6.8.1/src/Exception.php";
 
-// require_once "../php/PHPMailer/PHPMailer.php";
-// require_once "PHPMailer/SMTP.php";
-// require_once "PHPMailer/Exception.php";
+    require_once "../phpmailer/PHPMailer-6.8.1/src/PHPMailer.php";
+    require_once "../phpmailer/PHPMailer-6.8.1/src/SMTP.php";
+    require_once "../phpmailer/PHPMailer-6.8.1/src/Exception.php";
 
     $mail = new PHPMailer();
 
@@ -24,11 +20,12 @@ require_once "../phpmailer/PHPMailer-6.8.1/src/Exception.php";
     $mail->Password = '608marta6008';
     $mail->Port = 465;
     $mail->SMTPSecure = "ssl";
+
     // email settings
     $mail->isHTML(true);
     $mail->setFrom($email, $name);
     $mail->addAddress("martamykhailyna608@gmail.com");
-    $mail->Subject = "$email($subject)";
+    // $mail->Subject = "$email()";
     $mail->Body = $body;
 
     if ($mail->send()) {
@@ -40,5 +37,5 @@ require_once "../phpmailer/PHPMailer-6.8.1/src/Exception.php";
     }
 
     exit(json_encode(array("status" => $status, "response" => $response)));
-    }
+}
 ?>

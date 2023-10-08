@@ -81,7 +81,7 @@
             var body = $("#body-textarea");
             if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(body)) {
                 $.ajax({
-                    url: 'php/sendmail.php',
+                    url: './php/sendmail.php',
                     method: 'POST',
                     dataType: 'json',
                     data: {
@@ -110,6 +110,6 @@
     
 
     <!-- <script src="js/contact-form.js"></script> -->
-    <script src="./php/sendmail.php"></script>
+    <!-- <script src="./php/sendmail.php"></script> -->
 </body>
 </html>
